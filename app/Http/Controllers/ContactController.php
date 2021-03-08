@@ -3,19 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Mail;
 
 class ContactController extends Controller
 {
-    public function createForm()
+    public function createForm(Request $request)
     {
         return view('contact');
     }
 
-    public function ContactUsForm(Request $request)
+    public function contactUs(Request $request)
     {
         //Form validation
         $this->validate($request, [
-            'email' => 'required|email',
+            'email' => 'required|string|email|max:255',
+            'subject' => 'New message from website',
             'message' => 'required'
         ]);
 
@@ -29,6 +31,6 @@ class ContactController extends Controller
             $message->to('dennis.ego@hotmail.be', 'Admin')->subject($request->get('subject'));
         });
 
-        return back();
+        return back()->with('success', 'Bedankt om ons te contacteren! We connecteren je zo snel mogelijk met de juiste persoon.');
     }
 }

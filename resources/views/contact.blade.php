@@ -12,30 +12,41 @@
     
     <section class="contact">
         <div class="c-content bg--neutrals-13 ff--alt">
-            <div class="c-content-title fc--neutrals-4 ff--alt fs--size-2 p--10" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="1500">
-                <h1>Contacteer ons!</h1>
-                <p class="fs--size-1">Ontdek hoe wij je kunnen helpen om de resultaten te bereiken waar jij en/of jouw team naar streeft.</p>
-            </div>            
-            <div class="c-content-form bg--neutrals-0 p--5" data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="1500">
-                <?php if(!empty($userError)): ?>
-                    <div class="c-content-form-errors fc--neutrals-0 fw--bold fs--size-1 ff--normal bg--error-0">
-                        <p><?= $userError; ?></p>
-                    </div>
-                <?php endif; ?>
-                <form action="/contact" method="post" class="bg--neutrals-0">
-                    <fieldset>
-                        <label for="email" class="fc--neutrals-4">Jouw email<span class="fc--error-0 fs--size-3">*</span></label>
-                        <input type="text" name="email" class="mt--2 fc--neutrals-3 fw--bold fs--size-1 ff--normal bg--neutrals-13">
-                    </fieldset>
-                    <fieldset>
-                        <label for="message" class="fc--neutrals-4">Jouw bericht<span class="fc--error-0 fs--size-3">*</span></label>
-                        <textarea name="message" cols="50" rows="20" class="mt--2 fc--neutrals-3 fw--bold fs--size-1 ff--normal bg--neutrals-13"></textarea>
-                    </fieldset>
-                    <fieldset>
-                        <input type="submit" class="c-content-form-submit fc--neutrals-0 fw--bold fs--size-1 ff--normal bg--neutrals-4">
-                    </fieldset>
-                </form>
-            </div>
+            @if(Session::has('success'))
+                <div class="c-content-succes fc--neutrals-4 ff--alt fs--size-2" data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="1500">
+                    {{Session::get('success')}}    
+                </div>
+            @else 
+                <div class="c-content-title fc--neutrals-4 ff--alt fs--size-2 p--10" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="1500">
+                    <h1>Contacteer ons!</h1>
+                    <p class="fs--size-1">Ontdek hoe wij je kunnen helpen om de resultaten te bereiken waar jij en/of jouw team naar streeft.</p>
+                </div>            
+                <div class="c-content-form bg--neutrals-0 p--5" data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="1500">    
+                    <!-- Error -->
+                    @if ($errors->has('email') || $errors->has('message'))
+                        <div class="c-content-form-errors fc--neutrals-0 fw--bold fs--size-1 ff--normal bg--error-0">
+                            <span>{{ $errors->first('email') }}</span><br>
+                            <span>{{ $errors->first('message') }}</span>
+                        </div>
+                    @endif
+                    <form action="{{ route('contact.store') }}" method="post" class="bg--neutrals-0">
+                        <!-- CROSS Site Request Forgery Protection -->
+                        @csrf
+
+                        <fieldset>
+                            <label for="email" class="fc--neutrals-4">Jouw email<span class="fc--error-0 fs--size-3">*</span></label>
+                            <input type="email" id="email" name="email" class="mt--2 fc--neutrals-3 fw--bold fs--size-1 ff--normal bg--neutrals-13 {{ $errors->has('email') ? 'error' : '' }}">
+                        </fieldset>
+                        <fieldset>
+                            <label for="message" class="fc--neutrals-4">Jouw bericht<span class="fc--error-0 fs--size-3">*</span></label>
+                            <textarea name="message" id="message" cols="50" rows="20" class="mt--2 fc--neutrals-3 fw--bold fs--size-1 ff--normal bg--neutrals-13 {{ $errors->has('message') ? 'error' : '' }}"></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <input type="submit" class="c-content-form-submit fc--neutrals-0 fw--bold fs--size-1 ff--normal bg--neutrals-4">
+                        </fieldset>
+                    </form>
+                </div>
+            @endif
             <div class="c-content-map bg--neutrals-3 fc--neutrals-0 ff--alt fs--size-2">
                 <div data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="500">
                     <h1>Eens langskomen? Dat kan!</h1>
@@ -61,6 +72,14 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <script>
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
     </script>
 
 </body>

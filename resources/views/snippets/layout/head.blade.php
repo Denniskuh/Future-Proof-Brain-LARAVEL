@@ -8,6 +8,7 @@
     <meta property="og:description" content="Future Proof Brain. Meesterschap over je brein en je leven. Wij bieden een ruim aanbod aan coaching en /of training die jou helpen om de obstakels in je leven te overwinnen. We vinden  je persoonlijke krachten en boycotters. Dit zowel op persoonlijke als op professionele vlak." />
     <meta property="og:title" content="Future Proof Brain - Samen werken we aan een FUTURE PROOF BRAIN" />
     <meta property="og:type" content="Website" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta property="og:url" content="https://fpb.dennis.ego.nxtmediatech.eu/" />
     <meta property="og:image" content="https://fpb.dennis.ego.nxtmediatech.eu/build/images/luchtballon-full.jpg" />
 

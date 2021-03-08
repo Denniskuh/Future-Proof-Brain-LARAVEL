@@ -26,4 +26,4 @@ Route::get('/ons-team', [App\Http\Controllers\TeamController::class, 'index']);
 
 //CONTACT ROUTE
 Route::get('/contact', [App\Http\Controllers\ContactController::class, 'createForm']);
-
+Route::post('/contact', [App\Http\Controllers\ContactController::class, 'contactUs'])->name('contact.store');

@@ -1,0 +1,9 @@
+textarea::-webkit-scrollbar {
+    width: 12px;
+    background-color: $contact-textarea-scrollbar-background-color; 
+}
+  
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: $contact-textarea-scrollbar-color; 
+}

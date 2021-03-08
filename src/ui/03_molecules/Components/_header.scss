@@ -1,0 +1,22 @@
+//HEADER
+header{
+    text-align: left;
+    h1{        
+        cursor: default;        
+    }
+}
+.title{    
+    position: absolute;
+    z-index: 3;
+    width: 80%;    
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-container{
+    position: absolute;
+    z-index: 2;    
+    top: 18%;
+    right: 5%;
+    transform: translate(-50%, -50%);    
+}

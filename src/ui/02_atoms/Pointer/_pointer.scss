@@ -1,0 +1,13 @@
+.pointer{    
+    margin-top: 50px;
+}
+
+.m-content-title{
+    a{    
+        animation: $floating-anim 2s infinite ease-in-out;    
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        text-decoration: none;
+    }
+}

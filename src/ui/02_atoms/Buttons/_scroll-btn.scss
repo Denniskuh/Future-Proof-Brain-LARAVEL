@@ -1,0 +1,22 @@
+//SCROLL TO TOP BUTTON
+.hamburger{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    z-index: 1;
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    font-size: 20px;
+    background: $scroll-btn-background-color;
+    border-radius: 20px;
+    border:2px solid $scroll-btn-border-color;
+    padding: 20px;
+    color: $scroll-font-color;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+}
+.hamburger:hover{
+    background-color: $scroll-btn-hover-background-color;
+    transition: 0.3s ease-in-out;
+}

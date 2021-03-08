@@ -1,0 +1,36 @@
+//MOBILE
+@media (min-width: 350px){
+    
+}
+//TABLET PORTRAIT AND UP
+@media (min-width: 750px){
+    .f-content{
+        padding: 50px;
+        .f-content-box{
+            display: flex;
+            margin: 50px auto;
+            justify-content: center;
+            .f-content-box-address{
+                margin-right: 50px;
+            }
+        }
+        .f-content-nav{
+            a{
+                font-size: 15px;
+            }
+        }
+    }
+}
+//DESKTOP
+@media (min-width: 1024px){    
+    .f-content{
+        .f-content-box{
+            font-size: 20px;
+        }
+        .f-content-nav{
+            a{
+                font-size: 20px;
+            }
+        }
+    }
+}

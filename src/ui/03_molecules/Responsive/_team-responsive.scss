@@ -1,0 +1,60 @@
+//TABLET PORTRAIT AND UP
+@media (min-width: 750px){
+    .oow-content{
+        padding: 50px 150px;
+    }
+    .ooh-content{
+        padding: 100px;
+        .ooh-content-title{
+            font-size: 50px;
+        }
+    }
+}
+//DESKTOP
+@media (min-width: 1024px){
+    .oow-content{
+        padding: 50px;
+        .oow-content-team-box{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            .oow-content-team-box-info{
+                margin: 0 20px;
+                width: 100%;
+                h1{
+                    font-size: 35px;
+                }
+                h4{
+                    font-size: 25px;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+            .oow-content-team-box-img{
+                img{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1440px){
+    .oow-content{
+        .oow-content-team-box{
+            width: 85%;
+            .oow-content-team-box-info{
+                h1{
+                    font-size: 50px;
+                }
+                h4{
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

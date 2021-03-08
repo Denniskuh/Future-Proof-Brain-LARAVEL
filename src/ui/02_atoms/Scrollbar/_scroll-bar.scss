@@ -1,0 +1,13 @@
+//SCROLLBAR
+body::-webkit-scrollbar {
+	width: 20px;
+}
+  
+body::-webkit-scrollbar-track {
+	background:  $scrollbar-gradient-color;
+}
+  
+body::-webkit-scrollbar-thumb {
+	background: transparent; 
+	box-shadow: 0px 0px 0px 100000vh $scrollbar-background-color;
+}

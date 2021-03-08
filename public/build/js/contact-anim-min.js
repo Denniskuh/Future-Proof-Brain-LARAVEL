@@ -1,0 +1,1 @@
+var animation=lottie.loadAnimation({container:document.getElementById("contact-anim"),renderer:"svg",loop:!0,autoplay:!0,path:"./build/js/contact-anim.json"});

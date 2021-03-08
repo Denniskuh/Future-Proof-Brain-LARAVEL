@@ -1,0 +1,71 @@
+//MOBILE
+@media (min-width: 350px){
+    header{
+        h1{
+            font-size: 30px;
+        }
+    }
+    .btn{
+        display: flex;
+    }
+}
+//TABLET PORTRAIT AND UP
+@media (min-width: 750px){
+    header{
+        h1{
+            font-size: 35px;
+        }
+    }
+    .btn{
+        display: flex;
+    }
+    .header-container{
+        img{
+            height: 400px;
+        }
+    }
+}
+//DESKTOP
+@media (min-width: 1024px){
+    header{
+        h1{
+            font-size: 60px;
+        }
+    }
+    .header-container{
+        top: 10%;
+        img{
+            height: 550px;
+        }
+    }
+    .btn{
+        button{
+            font-size: 20px;
+        }
+    }
+}
+@media (min-width: 1440px){
+    header{
+        h1{
+            font-size: 75px;
+        }
+    }
+    .header-container{
+        img{
+            height: 600px;
+        }
+    }
+}
+@media (min-width: 1600px){
+    header{
+        h1{
+            font-size: 85px;
+        }
+    }
+    .header-container{
+        right: 10%;
+        img{
+            height: 650px;
+        }
+    }
+}

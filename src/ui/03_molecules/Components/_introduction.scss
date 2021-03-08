@@ -1,0 +1,51 @@
+.i-content{
+    h1{
+        margin: 0;
+    }
+    p{
+        text-align: justify;
+        margin: 0;
+        line-height: 25px;
+    }
+    ul{
+        margin: 20px 0;
+        padding: 0;
+    }
+    li{
+        list-style: none;
+        display: flex;
+        text-align: center;
+    }
+    span{
+        cursor: default;
+        margin: 10px auto;
+        text-decoration: none;       
+        display: inline-block;
+        position: relative;
+    }
+    span:after{
+        background: none repeat scroll 0 0 transparent;
+        content: "";
+        display: block;
+        height: 5px;
+        left: 50%;
+        right: 50%;
+        position: absolute;
+        background: #fff;
+        transition: all 0.3s ease 0s;
+        width: 0;
+    }
+    span:hover:after { 
+        width: 100%; 
+        left: 0; 
+    }
+    .i-content-list{
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        border: 5px solid $intro-list-border-color;
+        width: 100%;
+        margin: 20px auto;
+    }
+}

@@ -1,0 +1,1 @@
+$(window).on("load",function(){$(".loader-wrapper").delay(1e3).queue(function(a){$(".loader-wrapper").css({transform:"translateY(-100vh)"}),a()})});

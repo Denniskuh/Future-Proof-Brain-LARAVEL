@@ -1,0 +1,1 @@
+window.addEventListener("scroll",()=>{const e=document.querySelector(".background-img"),t=document.querySelector(".header-container");let n=window.pageYOffset;t.style.transform="translateX("+1.3*n+"px)",window.innerWidth>=750&&(e.style.transform="translateY("+.6*n+"px)")});

@@ -1,0 +1,51 @@
+//SCROLL TO TOP BUTTON
+$scroll-btn-background-color: rgba(131, 204, 247, 0.8);
+$scroll-btn-border-color: #ffffff;
+$scroll-btn-hover-background-color: rgb(92, 144, 173);
+$scroll-font-color: #ffffff;
+//SCROLLBAR
+$scrollbar-shadow-color: rgba(0,0,0,0.4);
+$scrollbar-background-color: #F5F5F5;
+$scrollbar-gradient-color: linear-gradient(0deg, rgb(151, 206, 251) 0%,rgb(70, 130, 180) 100%);
+//HEADER
+$header-blue-btn-color: rgb(131, 204, 247);
+$header-blue-btn-hover-color: rgb(165, 218, 248);
+$header-white-btn-hover-color: #fff;
+$header-light-btn-hover-color: rgb(238, 236, 236);
+//INTRO
+$intro-img-border-color: #ffffff;
+$intro-list-border-color: #ffffff;
+//CONTACT
+$contact-textarea-scrollbar-color: rgb(131, 204, 247);
+$contact-textarea-scrollbar-background-color: #fff;
+
+//COLOR CLASS GENERATOR
+$colors: (
+  'neutrals-0': #fff,
+  'neutrals-1': darken(rgb(131, 204, 247), 5),
+  'neutrals-2': darken(rgb(131, 204, 247), 15),
+  'neutrals-3': darken(rgb(131, 204, 247), 25),
+  'neutrals-4': darken(rgb(131, 204, 247), 40),
+  'neutrals-5': darken(rgb(131, 204, 247), 50),
+  'neutrals-6': darken(rgb(131, 204, 247), 65),
+  'neutrals-7': darken(rgb(131, 204, 247), 75),
+  'neutrals-8': darken(rgb(131, 204, 247), 85),
+  'neutrals-9': #000,
+  'neutrals-10': rgb(245, 245, 245),
+  'neutrals-11': rgb(122, 217, 255),
+  'neutrals-12': #111,
+  'neutrals-13': #f5f5f5,
+  'error-0': rgb(219, 84, 84),
+  'contact-0': rgb(255, 115, 173)
+);
+
+@each $key, $value in $colors {
+  //BACKGROUND COLOR
+  .bg--#{$key} { 
+    background-color: #{$value}; 
+  }
+  //FONT COLOR
+  .fc--#{$key} {
+    color: #{$value};
+  }
+}

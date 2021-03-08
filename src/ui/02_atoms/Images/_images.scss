@@ -1,0 +1,40 @@
+//HEADER
+.background-img{
+    position: relative;    
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+.header-container{    
+    img{
+        float: right;
+        animation: $floating-anim 5s infinite ease-in-out;
+        height: 350px; 
+    }
+}
+//INTRO
+.i-content{
+    img{
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        margin: 30px auto;  
+        width: 100%;      
+        outline: 10px solid $intro-img-border-color;
+        outline-offset: -10px;
+    }
+}
+//OFFER
+.o-content-container-box{
+    img{
+        width: 100%;
+    }
+}
+//OVER ONS
+.oow-content-team-box{
+    a{
+        img{
+            width: 100%;
+        }
+    }
+}

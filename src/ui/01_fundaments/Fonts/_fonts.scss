@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+//FONT FAMILY CLASSES
+$fonts: (
+    'normal': "'Rubik', sans-serif",
+    'alt': "'Raleway', sans-serif",
+    'size-0': 10px,
+    'size-1': 15px,
+    'size-2': 20px,
+    'size-3': 25px,
+    'size-4': 30px,
+    'size-5': 35px,
+    'size-6': 40px,
+    'size-7': 45px,
+    'size-8': 50px,
+    'size-9': 55px,
+    'size-10': 60px,
+    'center': "center",
+    'justify': "justify",
+    'left': "left",
+    'right': "right"
+);
+
+@each $key, $value in $fonts {
+    //FONT FAMILY
+    .ff--#{$key} { 
+        font-family: #{$value}; 
+    }
+    //FONT SIZE
+    .fs--#{$key} { 
+        font-size: #{$value}; 
+    }
+    //TEXT ALIGN
+    .ta--#{$key} { 
+        text-align: #{$value}; 
+    }
+}
+
+//DEFAULT BOLD CLASS
+.fw--bold{
+    font-weight: bold;
+}

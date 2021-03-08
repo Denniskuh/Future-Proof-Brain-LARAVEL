@@ -1,0 +1,32 @@
+.sidebar{
+    z-index: 10000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: -100vw;
+    width: 100vw;
+    height: 100vh;   
+    transition: .3s ease-in-out;       
+    ul{   
+        padding: 0;   
+        li{
+            list-style: none;
+            text-align: center;
+            a{                
+                display: inline-block;
+                text-transform: uppercase;                
+                text-decoration: none;
+                margin: 1.5rem;
+                transition: all .2s ease-in-out;
+            }
+            a:hover{
+                color: rgb(203, 240, 255);
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+.clicked{
+    right: 0;
+}

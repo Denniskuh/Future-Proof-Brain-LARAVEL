@@ -1,0 +1,12 @@
+.oow-content-team-box{
+    overflow: hidden;
+    margin: 20px auto;
+    width: 100%;
+    justify-content: center;
+    border-radius: 5px;
+    .oow-content-team-box-info{        
+        p:last-child{
+            margin-top: 20px;
+        }
+    }
+}

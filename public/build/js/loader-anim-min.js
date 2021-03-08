@@ -1,0 +1,1 @@
+var animation=lottie.loadAnimation({container:document.getElementById("loading-anim"),renderer:"svg",loop:!0,autoplay:!0,path:"./build/js/loader.json"});

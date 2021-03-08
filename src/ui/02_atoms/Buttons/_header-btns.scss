@@ -1,0 +1,31 @@
+//HEADER BUTTONS
+.btn {
+    position: absolute;
+    display: block;
+    margin-top: 20px;
+    button{
+        cursor: pointer;
+        outline: none;
+        border: none;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 10px 20px 0 0;
+        transition: all .2s ease-in-out;
+    }
+}
+.about-btn {
+    button{
+        background-color: $header-white-btn-hover-color;
+    }
+    button:hover{
+        background-color: $header-light-btn-hover-color;
+    }
+}
+.contact-btn {
+    button{
+        background-color: $header-blue-btn-color;
+    }
+    button:hover{
+        background-color: $header-blue-btn-hover-color;
+    }
+}

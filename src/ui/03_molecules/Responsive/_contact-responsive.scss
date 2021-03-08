@@ -1,0 +1,55 @@
+//TABLET PORTRAIT AND UP
+@media (min-width: 750px){
+    .c-content{
+        .c-content-title{
+            padding: 70px;
+            h1{
+                font-size: 70px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        .c-content-form{
+            width: 55%;
+        }
+        .c-content-anim{
+            width: 300px;
+        }
+        .c-content-map{
+            h1{
+                font-size: 45px;
+            }
+        }
+    }
+}
+//DESKTOP
+@media (min-width: 1024px){
+    .c-content{
+        .c-content-title{
+            h1{
+                font-size: 70px;
+            }
+        }
+        .c-content-form{
+            width: 45%;
+        }
+        .c-content-map{
+            h1{
+                font-size: 60px;
+            }
+        }
+    }
+}
+@media (min-width: 1440px){
+    .c-content{
+        .c-content-form{
+            width: 35%;
+        }
+        .c-content-map{
+            h1{
+                font-size: 70px;
+            }
+        }
+    }
+}

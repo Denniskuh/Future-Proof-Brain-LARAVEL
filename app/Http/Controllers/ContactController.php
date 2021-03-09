@@ -26,7 +26,7 @@ class ContactController extends Controller
         //  Send mail to admin
         \Mail::send('mail', array(
             'email' => $request->get('email'),
-            'subject' => 'FUTURE PROOF BRAIN - Message from websit',
+            'subject' => 'FUTURE PROOF BRAIN - Message from website',
             'user_query' => $request->get('message'),
         ), function($message) use ($request){
             $message->from($request->email);

@@ -1,11 +1,9 @@
-<h2>Hello</h2> <br><br>
+<h2>Future Proof Brain</h2> <br><br>
 
-You have got an email from : {{ $email }} <br><br>
+Je hebt een bericht ontvangen van : {{ $email }} <br><br>
 
 User details: <br><br>
 
 Email: {{ $email }} <br>
-Subject: {{ $subject }} <br>
-Message: {{ $user_query }} <br><br>
-
-Thanks
+Onderwerp: {{ $subject }} <br>
+Bericht: {{ $user_query }} <br><br>

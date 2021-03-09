@@ -34,6 +34,7 @@ class ContactController extends Controller
             ->subject('Message from website')
             ->getSwiftMessage()
             ->getHeaders()
+            ->addTextHeader('Header', 'Future Proof Brain')
             ->addTextHeader('x-mailgun-native-send', 'true');
             $message->replyTo($request->email);
         });

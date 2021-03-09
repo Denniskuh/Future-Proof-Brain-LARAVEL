@@ -26,12 +26,12 @@ class ContactController extends Controller
         //  Send mail to admin
         \Mail::send('mail', array(
             'email' => $request->get('email'),
-            'subject' => 'Message from website',
+            'subject' => 'FUTURE PROOF BRAIN - Message from websit',
             'user_query' => $request->get('message'),
         ), function($message) use ($request){
             $message->from($request->email);
             $message->to('dennis.ego@hotmail.be', 'Dennis Ego')
-            ->subject('Message from website')
+            ->subject('FUTURE PROOF BRAIN - Message from website')
             ->getSwiftMessage()
             ->getHeaders()
             ->addTextHeader('x-mailgun-native-send', 'true');

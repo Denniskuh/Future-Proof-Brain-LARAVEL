@@ -35,6 +35,7 @@ class ContactController extends Controller
             ->getSwiftMessage()
             ->getHeaders()
             ->addTextHeader('x-mailgun-native-send', 'true');
+            $message->replyTo($request->email);
         });
 
         return back()->with('success', 'Bedankt om ons te contacteren! We connecteren je zo snel mogelijk met de juiste persoon.');

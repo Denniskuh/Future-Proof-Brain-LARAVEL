@@ -29,12 +29,15 @@ class ContactController extends Controller
             'subject' => 'Message from website',
             'user_query' => $request->get('message'),
         ), function($message) use ($request){
-            $message->from($request->email);
+            $message->from($request->email)
+            ->getSwiftMessage()
+            ->getHeaders() 
+            ->addTextHeader('Header', 'Future Proof Brain');
+            
             $message->to('dennis.ego@hotmail.be', 'Dennis Ego')
             ->subject('Message from website')
             ->getSwiftMessage()
-            ->getHeaders()
-            ->addTextHeader('Header', 'Future Proof Brain')
+            ->getHeaders()            
             ->addTextHeader('x-mailgun-native-send', 'true');
             $message->replyTo($request->email);
         });

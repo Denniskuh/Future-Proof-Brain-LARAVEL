@@ -23,9 +23,13 @@
                 </div>            
                 <div class="c-content-form bg--neutrals-0 p--5" data-aos="zoom-in" data-aos-easing="ease-in" data-aos-delay="1500">    
                     <!-- Error -->
-                    @if ($errors->has('email') || $errors->has('message'))
+                    @if ($errors->has('email'))
                         <div class="c-content-form-errors fc--neutrals-0 fw--bold fs--size-1 ff--normal bg--error-0">
-                            <span>{{ $errors->first('email') }}</span><br>
+                            <span>{{ $errors->first('email') }}</span>
+                        </div>
+                    @endif
+                    @if ($errors->has('message'))
+                        <div class="c-content-form-errors fc--neutrals-0 fw--bold fs--size-1 ff--normal bg--error-0">
                             <span>{{ $errors->first('message') }}</span>
                         </div>
                     @endif

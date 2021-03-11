@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 //HOME ROUTES
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 //TEAM ROUTE
 Route::get('/ons-team', [App\Http\Controllers\TeamController::class, 'index']);

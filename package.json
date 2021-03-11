@@ -317,12 +317,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Denniskuh/Future-Proof-Brain.git"
+        "url": "git+https://github.com/Denniskuh/Future-Proof-Brain-LARAVEL.git"
     },
     "author": "Dennis Ego",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Denniskuh/Future-Proof-Brain/issues"
+        "url": "https://github.com/Denniskuh/Future-Proof-Brain-LARAVEL.git/issues"
     },
-    "homepage": "https://github.com/Denniskuh/Future-Proof-Brain#readme"
+    "homepage": "https://github.com/Denniskuh/Future-Proof-Brain-LARAVEL.git#readme"
 }

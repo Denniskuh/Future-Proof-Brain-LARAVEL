@@ -8,6 +8,6 @@ class TeamController extends Controller
 {
     public function index()
     {
-        return view('ons-team');
+        return view('pages.ons-team');
     }
 }

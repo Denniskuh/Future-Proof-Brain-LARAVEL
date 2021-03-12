@@ -1,15 +1,6 @@
-@include('snippets.layout.head')
+@extends('layouts.app')
 
-<body>  
-    <!--loadingscreen-->
-    @include('snippets.layout.loading-screen')
-
-    <!--to top btn-->
-    @include('snippets.layout.top-btn')
-
-    <!--Navigation-->
-    @include('snippets.layout.navigation')
-    
+@section('content')
     <section class="contact">
         <div class="c-content bg--neutrals-13 ff--alt">
             @if(Session::has('success'))
@@ -59,32 +50,4 @@
             </div>
         </div>
     </section>
-
-    @include('snippets.layout.footer')
-
-    <script rel="preload" src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous" as="script"></script> 
-    <script src="build/js/sidebar-min.js" type="text/javascript"></script>
-    <script src="build/js/scroll-to-top-btn-min.js" type="text/javascript"></script>
-    <script src="build/js/loading-screen-min.js" type="text/javascript"></script>
-    <script src="build/js/lottie-resizing-min.js" type="text/javascript"></script>
-    <script rel="preload" type="module" src="build/js/lottie-min.js" type="text/javascript"></script>
-    <script type="module" src="build/js/loader-anim-min.js" type="text/javascript"></script>   
-    <script src="build/js/lightbox-min.js"></script>
-    <script src="https://kit.fontawesome.com/a335cdc05c.js" crossorigin="anonymous"></script> 
-
-    <!-- AOS Animation effects -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-
-    <script>
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            }
-        });
-    </script>
-
-</body>
-</html>
+@endsection

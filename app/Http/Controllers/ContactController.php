@@ -10,7 +10,7 @@ class ContactController extends Controller
     //MAKE THE FORM
     public function createForm(Request $request)
     {
-        return view('contact');
+        return view('pages.contact');
     }
 
     //VALIDATE AND SEND THE EMAIL
@@ -24,7 +24,7 @@ class ContactController extends Controller
         ]);
 
         //  Send mail to admin
-        \Mail::send('mail', array(
+        \Mail::send('pages.mail', array(
             'email' => $request->get('email'),
             'subject' => 'FUTURE PROOF BRAIN - Message from website',
             'user_query' => $request->get('message'),

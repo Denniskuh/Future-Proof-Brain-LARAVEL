@@ -77,7 +77,7 @@
                 <div class="o-content-title ta--justify fs--size-1" data-aos="fade-up" data-aos-easing="ease-in">
                     <h1>Facilitator in transformatie</h1><br>
                     <p>Meesterschap over je brein</p><br>
-                    <p>Wij bieden een ruim aanbod aan coaching en/of training die jou helpen om de obstakels in je leven te overwinnen. We vinden  je persoonlijke krachten en boycotters. Dit zowel op persoonlijke als op professionele vlak. <br><br><a href="/contact" class="fc--neutrals-0"><strong><u>Contacteer ons</u></strong></a> om te ontdekken hoe wij je kunnen helpen om de resultaten te bereiken waar jij en/of jouw team naar streeft.</p>
+                    <p>Wij bieden een ruim aanbod aan coaching en/of training die jou helpen om de obstakels in je leven te overwinnen. We vinden  je persoonlijke krachten en boycotters. Dit zowel op persoonlijk als op professioneel vlak. <br><br><a href="/contact" class="fc--neutrals-0"><strong><u>Contacteer ons</u></strong></a> om te ontdekken hoe wij je kunnen helpen om de resultaten te bereiken waar jij en/of jouw team naar streeft.</p>
                 </div>
                 <br><br>
                 <div class="o-content-container ta--left fs--size-1 mt--20">

@@ -32,16 +32,21 @@
                 font-size: 60px;
             }
         }
-        .o-content-container-title{
-            font-size: 35px;
-        }
-        .o-content-container-box{
-            margin: auto;
-            align-items: center;
-            padding: 50px;
-            width: 60%;
-            img{
-                width: 100%;
+        .o-content-container{
+            .splide{
+                padding: 100px 0;
+            }
+            .o-content-container-title{
+                font-size: 35px;
+            }
+            .o-content-container-box{
+                margin: auto;
+                align-items: center;
+                padding: 50px;
+                width: 60%;
+                img{
+                    width: 100%;
+                }
             }
         }
     }

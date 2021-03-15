@@ -67,6 +67,10 @@
         </div>
     </section>
 
+    <section class="wave-bottom">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0f9aeb" fill-opacity="1" d="M0,256L48,250.7C96,245,192,235,288,240C384,245,480,267,576,266.7C672,267,768,245,864,218.7C960,192,1056,160,1152,154.7C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+
     <section id="offer" class="offer">
         <div class="o-content bg--neutrals-3 fc--neutrals-0 ff--normal p--10">
             <div class="o-content-title ta--justify fs--size-1" data-aos="fade-up" data-aos-easing="ease-in">

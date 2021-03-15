@@ -67,57 +67,59 @@
         </div>
     </section>
 
-    <section class="wave-bottom">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0f9aeb" fill-opacity="1" d="M0,256L48,250.7C96,245,192,235,288,240C384,245,480,267,576,266.7C672,267,768,245,864,218.7C960,192,1056,160,1152,154.7C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </section>
-
-    <section id="offer" class="offer">
-        <div class="o-content bg--neutrals-3 fc--neutrals-0 ff--normal p--10">
-            <div class="o-content-title ta--justify fs--size-1" data-aos="fade-up" data-aos-easing="ease-in">
-                <h1>Facilitator in transformatie</h1><br>
-                <p>Meesterschap over je brein</p><br>
-                <p>Wij bieden een ruim aanbod aan coaching en/of training die jou helpen om de obstakels in je leven te overwinnen. We vinden  je persoonlijke krachten en boycotters. Dit zowel op persoonlijke als op professionele vlak. <br><br><a href="/contact" class="fc--neutrals-0"><strong><u>Contacteer ons</u></strong></a> om te ontdekken hoe wij je kunnen helpen om de resultaten te bereiken waar jij en/of jouw team naar streeft.</p>
-            </div>
-            <br><br>
-            <div class="o-content-container ta--left fs--size-1 mt--20">
-                <div class="o-content-container-title fs--size-1 ta--left" data-aos="fade-up" data-aos-easing="ease-in">
-                    <h1>Ons aanbod</h1>
+    <div data-aos="fade-up" data-aos-easing="ease-in" data-aos-duration="500">
+        <section class="wave-bottom">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0f9aeb" fill-opacity="1" d="M0,256L48,250.7C96,245,192,235,288,240C384,245,480,267,576,266.7C672,267,768,245,864,218.7C960,192,1056,160,1152,154.7C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </section>
+    
+        <section id="offer" class="offer">
+            <div class="o-content bg--neutrals-3 fc--neutrals-0 ff--normal p--10">
+                <div class="o-content-title ta--justify fs--size-1" data-aos="fade-up" data-aos-easing="ease-in">
+                    <h1>Facilitator in transformatie</h1><br>
+                    <p>Meesterschap over je brein</p><br>
+                    <p>Wij bieden een ruim aanbod aan coaching en/of training die jou helpen om de obstakels in je leven te overwinnen. We vinden  je persoonlijke krachten en boycotters. Dit zowel op persoonlijke als op professionele vlak. <br><br><a href="/contact" class="fc--neutrals-0"><strong><u>Contacteer ons</u></strong></a> om te ontdekken hoe wij je kunnen helpen om de resultaten te bereiken waar jij en/of jouw team naar streeft.</p>
                 </div>
-                <div class="splide p--3" data-aos="fade-up" data-aos-easing="ease-in">
-                    <div class="splide__track">
-                        <ul class="splide__list">
-                            <li class="splide__slide">
-                                <div class="o-content-container-box ta--left bg--neutrals-5 p--7">
-                                    <img src="./build/images/team.jpg" alt="future proof brain team training">
-                                    <h1 class="fs--size-1">TEAM EN INDIVIDU</h1>
-                                    <h2 class="fs--size-1">Bootcamp of ambassadeurstraining</h2><br>
-                                    <p>Future proof people and future proof organisations</p><br>
-                                    <p>Omarm de uitdagingen van de verandering in jouw organisatie</p>
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="o-content-container-box ta--left bg--error-0 p--7">
-                                    <img src="./build/images/coaching.jpg" alt="future proof brain coaching">
-                                    <h1 class="fs--size-1">NEUROCOGNITIEVE GEDRAGSMATIGE COACHING</h1>
-                                    <h2 class="fs--size-1">EXECUTIEVE COACHING</h2>
-                                    <h2 class="fs--size-1">INDIVIDUELE COACHING</h2>
-                                    <h2 class="fs--size-1">LOOPBAAN COACHING</h2><br>
-                                    <p>Neurocognitieve gedragsmatige herprogrammering</p><br>
-                                    <p>Transformatie & inspiratie</p>
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="o-content-container-box ta--left bg--neutrals-2 p--7">
-                                    <img src="./build/images/cogmed-training.jpg" alt="future proof brain training">
-                                    <h1 class="fs--size-1">COGMED TRAINING ACT</h1><br>
-                                    <p>Haal meer uit je geheugen</p><br>
-                                    <p>Leren omgaan met niet helpende gedachten</p>
-                                </div>
-                            </li>
-                        </ul>
+                <br><br>
+                <div class="o-content-container ta--left fs--size-1 mt--20">
+                    <div class="o-content-container-title fs--size-1 ta--left" data-aos="fade-up" data-aos-easing="ease-in">
+                        <h1>Ons aanbod</h1>
+                    </div>
+                    <div class="splide p--3" data-aos="fade-up" data-aos-easing="ease-in">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <div class="o-content-container-box ta--left bg--neutrals-5 p--7">
+                                        <img src="./build/images/team.jpg" alt="future proof brain team training">
+                                        <h1 class="fs--size-1">TEAM EN INDIVIDU</h1>
+                                        <h2 class="fs--size-1">Bootcamp of ambassadeurstraining</h2><br>
+                                        <p>Future proof people and future proof organisations</p><br>
+                                        <p>Omarm de uitdagingen van de verandering in jouw organisatie</p>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="o-content-container-box ta--left bg--error-0 p--7">
+                                        <img src="./build/images/coaching.jpg" alt="future proof brain coaching">
+                                        <h1 class="fs--size-1">NEUROCOGNITIEVE GEDRAGSMATIGE COACHING</h1>
+                                        <h2 class="fs--size-1">EXECUTIEVE COACHING</h2>
+                                        <h2 class="fs--size-1">INDIVIDUELE COACHING</h2>
+                                        <h2 class="fs--size-1">LOOPBAAN COACHING</h2><br>
+                                        <p>Neurocognitieve gedragsmatige herprogrammering</p><br>
+                                        <p>Transformatie & inspiratie</p>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="o-content-container-box ta--left bg--neutrals-2 p--7">
+                                        <img src="./build/images/cogmed-training.jpg" alt="future proof brain training">
+                                        <h1 class="fs--size-1">COGMED TRAINING ACT</h1><br>
+                                        <p>Haal meer uit je geheugen</p><br>
+                                        <p>Leren omgaan met niet helpende gedachten</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 @endsection

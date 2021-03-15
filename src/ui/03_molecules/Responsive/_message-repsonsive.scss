@@ -18,7 +18,7 @@
         margin: -20px 0 -100px 0;
     }
     .wave-bottom{
-        margin: -100px 0 -10px 0;
+        margin: -150px 0 -10px 0;
     }
 }
 //DESKTOP
@@ -30,18 +30,12 @@
         font-size: 100px;
     }
 }
-@media (min-width: 1440px){
-    .m-content-title{
-        font-size: 100px;
-    }  
+@media (min-width: 1440px){ 
     .pointer{
         font-size: 120px;
     }  
 }
 @media (min-width: 1600px){
-    .m-content-title{
-        font-size: 120px;
-    }
     .pointer{
         font-size: 140px;
     }

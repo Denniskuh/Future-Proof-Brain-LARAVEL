@@ -10,7 +10,8 @@ class ContactController extends Controller
     //MAKE THE FORM
     public function createForm(Request $request)
     {
-        return view('pages.contact');
+        $title = 'Contact';
+        return view('pages.contact')->with('title', $title);
     }
 
     //VALIDATE AND SEND THE EMAIL

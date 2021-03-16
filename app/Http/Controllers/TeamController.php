@@ -8,6 +8,7 @@ class TeamController extends Controller
 {
     public function index()
     {
-        return view('pages.ons-team');
+        $title = "Ons team";
+        return view('pages.ons-team')->with('title', $title);
     }
 }

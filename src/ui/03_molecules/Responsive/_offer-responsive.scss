@@ -26,7 +26,7 @@
 //DESKTOP
 @media (min-width: 1024px){
     .o-content{
-        padding: 100px;
+        padding: 50px 150px;
         .o-content-title{
             h1{
                 font-size: 60px;
@@ -53,6 +53,7 @@
 }
 @media (min-width: 1440px){    
     .o-content{
+        padding: 50px 250px;
         .o-content-container-title{
             font-size: 40px;
         }

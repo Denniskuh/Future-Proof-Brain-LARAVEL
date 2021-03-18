@@ -15,7 +15,6 @@
         <link rel="preload" href="./build/styling/styling.css" as="style">
         <link rel="stylesheet" href="./build/styling/styling.css" >
         <link rel="preconnect" href="favicon.ico" type="image/x-icon" />
-        {{-- <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <link rel="preconnect" href="https://unpkg.com/aos@next/dist/aos.css" />   
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />

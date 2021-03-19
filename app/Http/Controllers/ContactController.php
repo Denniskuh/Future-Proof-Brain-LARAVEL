@@ -19,8 +19,7 @@ class ContactController extends Controller
     {
         //Form validation
         $this->validate($request, [
-            'email' => 'required|string|email|max:255',
-            'subject' => 'New message from website',
+            'email' => 'required|string|email|max:255',            
             'message' => 'required'
         ]);
 

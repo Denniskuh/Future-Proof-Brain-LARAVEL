@@ -22,8 +22,7 @@ gulp.task('sass', function () {
   //MINIFY
   .pipe(cleanCSS({compatibility: 'ie8'}))
   .pipe(sourcemaps.write())
-  .pipe(gulp.dest('./public/build/styling'))
-  
+  .pipe(gulp.dest('./public/build/styling'))  
 });
 
 //MINIFY JSON
@@ -57,7 +56,7 @@ gulp.task('serve', function() {
   });
   gulp.watch("./src/**/*.scss", gulp.parallel('sass')).on('change', browserSync.reload); 
   gulp.watch("./src/**/*.php").on('change', browserSync.reload);
-  gulp.watch("./src/**/*.js").on('change', browserSync.reload);
+  gulp.watch("./src/**/*.js", gulp.parallel('js-minify')).on('change', browserSync.reload);
   gulp.watch("./src/**/*.json").on('change', browserSync.reload);
 });
 

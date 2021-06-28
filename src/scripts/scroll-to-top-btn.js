@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $(window).scroll(function(){
+$(document).on("ready",function(){
+    $(window).on("scroll", function(){
         if($(window).scrollTop() > 100){
             $('.hamburger').css({
                 "opacity":"1", "pointer-events":"auto"                        
@@ -10,7 +10,7 @@ $(document).ready(function(){
             });
         }
     });
-    $('.hamburger').click(function(){
+    $('.hamburger').on("click", function(){
         $('html').animate({scrollTop:0}, 100);
     });
 });

@@ -118,8 +118,8 @@
                                 <li class="splide__slide">
                                     <div class="o-content-container-box ta--left bg--neutrals-6 p--7">
                                         <img src="./build/images/kind-vliegt-op-koffer.png" alt="future proof brain training">
-                                        <h1 class="fs--size-3">Wil je meer weten?</h1><br>
-                                        <a href="/contact" class="fc--neutrals-0 fs--size-2"><strong><u>Contacteer ons</u></strong></a>
+                                        <h1 class="fs--size-1">Wil je meer weten?</h1><br>
+                                        <a href="/contact" class="fc--neutrals-0"><strong><u>Contacteer ons</u></strong></a>
                                     </div>
                                 </li>
                             </ul>

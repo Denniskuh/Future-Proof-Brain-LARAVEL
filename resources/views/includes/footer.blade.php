@@ -3,7 +3,7 @@
         <div class="f-content-nav ta--center fw--bold mb--10">
             <a href="/home" class="fc--neutrals-0 fs--size-0">Home</a>
             <a href="/ons-team" class="fc--neutrals-0 fs--size-0">Ons team</a>
-            <a href="#" class="fc--neutrals-0 fs--size-0">Projecten</a>
+            <a href="/projecten" class="fc--neutrals-0 fs--size-0">Projecten</a>
             <a href="/contact" class="fc--neutrals-0 fs--size-0">Contact</a>
         </div> 
         <div class="f-content-box">                 

@@ -20,6 +20,9 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 //TEAM ROUTE
 Route::get('/ons-team', [App\Http\Controllers\TeamController::class, 'index']);
 
+//PROJECTEN ROUTE
+Route::get('/projecten', [App\Http\Controllers\ProjectController::class, 'index']);
+
 //CONTACT ROUTE
 Route::get('/contact', [App\Http\Controllers\ContactController::class, 'createForm']);
 Route::post('/contact', [App\Http\Controllers\ContactController::class, 'contactUs'])->name('contact.store');

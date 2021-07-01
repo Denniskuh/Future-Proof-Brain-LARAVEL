@@ -52,7 +52,7 @@ gulp.task('js-minify', function() {
 // Static Server + watching scss/html files
 gulp.task('serve', function() {
   browserSync.init({
-    proxy: "http://localhost/public"
+    proxy: "http://localhost/public/"
   });
   gulp.watch("./src/**/*.scss", gulp.parallel('sass')).on('change', browserSync.reload); 
   gulp.watch("./src/**/*.php").on('change', browserSync.reload);
@@ -60,9 +60,4 @@ gulp.task('serve', function() {
   gulp.watch("./src/**/*.json").on('change', browserSync.reload);
 });
 
-function defaultTask(cb) {
-  // place code for your default task here
-  cb();
-}
-
-exports.default = series('js-minify', 'json-minify', 'sass', 'serve', defaultTask);
+exports.default = series('js-minify', 'json-minify', 'sass', 'serve');

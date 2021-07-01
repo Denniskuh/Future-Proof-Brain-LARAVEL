@@ -89,37 +89,45 @@
                             <ul class="splide__list">
                                 <li class="splide__slide">
                                     <div class="o-content-container-box ta--left bg--neutrals-5 p--7">
-                                        <img src="./build/images/team.jpg" alt="future proof brain team training">
-                                        <h1 class="fs--size-1">TEAM EN INDIVIDU</h1>
-                                        <h2 class="fs--size-1">Bootcamp of ambassadeurstraining</h2><br>
-                                        <p>Future proof people and future proof organisations</p><br>
-                                        <p>Omarm de uitdagingen van de verandering in jouw organisatie</p>
+                                        <img src="./build/images/cogmed-training.jpg" alt="future proof brain BRAINS">
+                                        <h1 class="fs--size-2">BRAINS</h1><br>
+                                        <p>De juiste brein zorg, "vinger aan je brein".</p><br>
+                                        <h2 class="fs--size-1">van 8 tot 88 jaar</h2><br><br>
+                                        <a href="/projecten/#brains" class="o-content-container-box-cta bg--neutrals-1 p--2 fc--neutrals-0 fw--bold">Ontdek meer</a>
                                     </div>
                                 </li>
                                 <li class="splide__slide">
                                     <div class="o-content-container-box ta--left bg--error-0 p--7">
                                         <img src="./build/images/coaching.jpg" alt="future proof brain coaching">
-                                        <h1 class="fs--size-1">NEUROCOGNITIEVE GEDRAGSMATIGE COACHING</h1>
-                                        <h2 class="fs--size-1">EXECUTIEVE COACHING</h2>
-                                        <h2 class="fs--size-1">INDIVIDUELE COACHING</h2>
-                                        <h2 class="fs--size-1">LOOPBAAN COACHING</h2><br>
-                                        <p>Neurocognitieve gedragsmatige herprogrammering</p><br>
-                                        <p>Transformatie & inspiratie</p>
+                                        <h1 class="fs--size-2">Meesterschap over je brein</h1><br>
+                                        <p>Gebaseerd op het boek: "Beslissen in een VUCA Wereld", Lannoo Campus.</p><br>
+                                        <h2 class="fs--size-1">Ken je brein. Ontmoet 4 hoofpersonages in je brein.</h2><br><br>
+                                        <a href="/projecten/#meesterschap-over-je-brein" class="o-content-container-box-cta bg--neutrals-1 p--2 fc--neutrals-0 fw--bold">Ontdek meer</a>
                                     </div>
                                 </li>
                                 <li class="splide__slide">
                                     <div class="o-content-container-box ta--left bg--neutrals-2 p--7">
-                                        <img src="./build/images/cogmed-training.jpg" alt="future proof brain training">
-                                        <h1 class="fs--size-1">COGMED TRAINING ACT</h1><br>
-                                        <p>Haal meer uit je geheugen</p><br>
-                                        <p>Leren omgaan met niet helpende gedachten</p>
+                                        <img src="./build/images/team.jpg" alt="future proof brain training">
+                                        <h1 class="fs--size-2">INDIVIDUELE PROGRAMMA'S</h1><br>
+                                        <p>We bieden een breed gamma aan individuele coaching programma's. Ontdek ze hieronder!</p><br><br>
+                                        <a href="/projecten/#individueel-programma" class="o-content-container-box-cta bg--neutrals-1 p--2 fc--neutrals-0 fw--bold">Ontdek meer</a>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="o-content-container-box ta--left bg--neutrals-4 p--7">
+                                        <img src="./build/images/kind-vliegt-op-koffer.png" alt="future proof brain training">
+                                        <h1 class="fs--size-2">FUTURE PROOF KIDS</h1><br>
+                                        <p>Elke kind dat bij ons mee in coaching komt geeft aan de ouders een gratis voucher voor het volgen van ons online programma BRAINS.</p><br>
+                                        <h2 class="fs--size-1">Dit is de visie die wij doortrekken in de begeleiding van onze kinderen en jongeren.</h2><br><br>
+                                        <a href="/projecten/#future-proof-kids" class="o-content-container-box-cta bg--neutrals-1 p--2 fc--neutrals-0 fw--bold">Ontdek meer</a>
                                     </div>
                                 </li>
                                 <li class="splide__slide">
                                     <div class="o-content-container-box ta--left bg--neutrals-6 p--7">
                                         <img src="./build/images/kind-vliegt-op-koffer.png" alt="future proof brain training">
-                                        <h1 class="fs--size-1">Wil je meer weten?</h1><br>
-                                        <a href="/contact" class="fc--neutrals-0"><strong><u>Contacteer ons</u></strong></a>
+                                        <h1 class="fs--size-2">Wil je meer weten?</h1><br>
+                                        <p>Maak gerust een afspraak via onderstaande knop. Hopelijk tot snel!</p><br><br>
+                                        <a href="/contact" class="o-content-container-box-cta bg--neutrals-1 p--2 fc--neutrals-0 fw--bold"><strong>Contacteer ons</strong></a>
                                     </div>
                                 </li>
                             </ul>

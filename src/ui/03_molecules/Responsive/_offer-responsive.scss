@@ -18,8 +18,15 @@
         }
         .o-content-container-box{
             margin: 20px 100px;
-            h1,h2{
+            h1{
                 font-size: 30px;
+            }
+            h2{
+                font-size: 20px;
+            }
+            .o-content-container-box-cta{
+                padding: 10px;
+                font-size: 20px;
             }
         }
     }

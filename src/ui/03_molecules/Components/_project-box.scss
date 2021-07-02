@@ -1,0 +1,26 @@
+.project:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: left;
+    .project__content{
+        height: 100%;
+        width: 90vw;
+        margin: 0px;
+        border-radius: 5px;
+        ol{
+            width: 100%;
+            li{
+                list-style: none;
+            }
+        }
+        .project__content__info__abbreviations{
+            &__span{
+                .letter{
+                    color: $header-blue-btn-color;
+                }
+            }
+        }      
+    }
+}

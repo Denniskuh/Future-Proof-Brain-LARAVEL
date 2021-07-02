@@ -38,3 +38,34 @@
         }
     }
 }
+
+//PROJECTS
+//CARD 1 -- BRAINS
+.project:nth-child(2){
+    .project__content{
+        position: relative;
+        &__image{
+            display: none;
+            height: 320px;
+            width: 450px;
+            overflow: hidden;
+            border-radius: 10px;
+            position: absolute;
+            top: 25%;
+            right: -40px;
+            -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            transition: all 1s ease-in-out;
+            &:before, &:after{
+                content:"";
+                -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+                -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+                box-shadow:0 0 20px rgba(0,0,0,0.8);
+            }
+            img{
+                height: 35vh;
+            }
+        }
+    }
+}

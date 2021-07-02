@@ -1,0 +1,36 @@
+.project:nth-child(1){
+    height: 100vh;
+    width: 100%;  
+    .project__landing{
+        padding: 0;
+        height: 100%;
+        &__title{
+            position: absolute;
+            z-index: 2;
+            height: 100px;
+            width: 100%;
+            text-align: center;
+            top: 45%;
+            h1{
+                transition: transform .5s ease-in-out;
+            }
+        }
+        &__background{
+            position: absolute;
+            z-index: 1;
+            overflow: hidden;
+            img{                
+                object-fit: cover;
+                height: 100vh;
+                width: 100%;
+                transition: transform .5s ease-in-out;
+            }
+        }
+    }
+}
+
+.project:nth-child(2), .project:nth-child(3), .project:nth-child(4), .project:nth-child(5){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

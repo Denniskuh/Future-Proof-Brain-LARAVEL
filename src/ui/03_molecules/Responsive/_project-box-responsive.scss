@@ -1,13 +1,65 @@
 //DESKTOP
 @media (min-width: 1024px){
-    .project:nth-child(2){
+    .project:nth-child(2), .project:nth-child(3){
         .project__content{
             max-width: 80vw;
+            &__title{
+                font-size: 45px;
+            }
             &__image{
                 display: inherit;
             }
             ol{
-                width: 55%;
+                width: 50%;
+            }            
+        }
+    }
+    .project:nth-child(3){
+        .project__content{
+            &__image{
+                top: 9%;
+            }
+            .quote{
+                &__slider{
+                    .quote__text{
+                        font-size: 25px;
+                    }                    
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1200px){
+    .project:nth-child(2){
+        .project__content{
+            &__image{
+                display: inherit;
+                top: 23%;
+                right: -50px;
+                height: 350px;
+                width: 550px;
+                img{
+                    height: 40vh;                    
+                }
+            }
+            ol{
+                width: 45%;
+            }
+        }
+    }
+    .project:nth-child(3){
+        .project__content{
+            &__image{
+                display: inherit;
+                right: -50px;
+                height: 350px;
+                width: 550px;
+                img{
+                    height: 40vh;                    
+                }
+            }
+            ol{
+                width: 45%;
             }
         }
     }
@@ -17,7 +69,6 @@
         .project__content{
             max-width: 65vw;
             &__image{
-                display: inherit;
                 top: 15%;
                 right: -150px;
                 height: 450px;
@@ -28,6 +79,38 @@
             }
             ol{
                 width: 45%;
+            }
+        }
+    }
+    .project:nth-child(3){
+        .project__content{
+            max-width: 65vw;
+        }
+    }
+}
+@media (min-width: 1600px){    
+    .project:nth-child(2), .project:nth-child(3){
+        .project__content{
+            max-width: 60vw;
+            ol{
+                width: 48%;
+            }
+        }
+    }
+    .project:nth-child(3){
+        .project__content{
+            &__image{
+                top: 5%;
+                right: -150px;
+                height: 450px;
+                width: 650px;
+                margin: 50px 0; 
+                img{
+                    height: 50vh;                   
+                }
+            }
+            &__details{
+                margin-top: 100px;
             }
         }
     }

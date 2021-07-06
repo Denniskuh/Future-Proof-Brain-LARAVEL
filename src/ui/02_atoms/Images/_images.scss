@@ -41,7 +41,7 @@
 
 //PROJECTS
 //CARD 1 -- BRAINS
-.project:nth-child(2){
+.project:nth-child(2), .project:nth-child(3){
     .project__content{
         position: relative;
         &__image{
@@ -65,6 +65,10 @@
             }
             img{
                 height: 35vh;
+                transition: transform .5s ease-in-out;
+            }
+            img:hover{
+                transform: scale(1.2);
             }
         }
     }

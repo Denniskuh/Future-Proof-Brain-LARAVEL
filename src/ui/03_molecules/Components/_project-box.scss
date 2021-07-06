@@ -1,26 +1,39 @@
-.project:nth-child(2){
+.project:nth-child(2), .project:nth-child(3){
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-    text-align: left;
+    text-align: left;   
     .project__content{
         height: 100%;
         width: 90vw;
         margin: 0px;
         border-radius: 5px;
+        h1{
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            -webkit-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto; 
+        }
         ol{
             width: 100%;
             li{
                 list-style: none;
             }
+        }     
+    }
+}
+
+.project:nth-child(3){
+    .project__content{
+        &__details{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
         }
-        .project__content__info__abbreviations{
-            &__span{
-                .letter{
-                    color: $header-blue-btn-color;
-                }
-            }
-        }      
     }
 }

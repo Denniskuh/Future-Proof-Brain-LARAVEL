@@ -15,8 +15,8 @@
         </section>
     
         <section class="project bg--neutrals-3 fc--neutrals-0 py--20" id="brains">
-            <div class="project__content bg--neutrals-4 p--10 ff--normal" data-aos="zoom-in" data-aos-easing="fade-left" data-aos-delay="500">
-                <h1 class="fs--size-8">BRAINS</h1>
+            <div class="project__content bg--neutrals-4 p--10 ff--normal" data-aos="zoom-in">
+                <h1 class="project__content__title fs--size-4">BRAINS</h1>
                 <p>De juiste brein zorg, "vinger aan je brein".</p><br>
                 <a href="/contact" class="o-content-container-box-cta bg--neutrals-1 p--2 my--10 fc--neutrals-0 fw--bold"><strong>Contacteer ons </strong></a><br><br><br>
                 <h2>Wat doen we in dit programma?</h2><br>
@@ -30,9 +30,59 @@
                 </ol><br><br>
                 <h2>Leeftijdscategorie</h2><br>
                 <p>Van 8 tot 88 jaar</p><br>
-                <div class="project__content__image" data-tilt data-tilt-glare data-aos="zoom-in" data-aos-easing="fade-right">
+                <div class="project__content__image" data-aos="fade-left">
                     <a href="./build/images/cogmed-training.jpg" data-lightbox="fpb-projects"><img src="./build/images/cogmed-training.jpg" alt="BRAINS program images"></a>
                 </div>
+            </div><br>
+        </section>
+
+        <section class="project bg--neutrals-3 fc--neutrals-0 py--20" id="meesterschap-over-je-brein">
+            <div class="project__content bg--neutrals-4 p--10 ff--normal" data-aos="zoom-in" data-aos-easing="fade-left">
+                <h1 class="project__content__title fs--size-4">MEESTERSCHAP OVER JE BREIN</h1>
+                <p>Gebaseerd op het boek: "Beslissen in een VUCA wereld".</p><br>
+                <p>Ken je brein. Ontmoet 4 hoofdpersonages in je brein.</p>
+                <p> <small>bron NGM: Neuro Gedragsmatige Methodologie (NGM).</small></p><br>
+                <a href="/contact" class="o-content-container-box-cta bg--neutrals-1 p--2 my--10 fc--neutrals-0 fw--bold"><strong>Contacteer ons </strong></a><br><br><br>
+                <h2>Wat doen we in dit programma?</h2><br>
+                <ol>                            
+                    <li>We werken binnen een organisatie voor een team of een groep</li><br>
+                    <li><span class="bg--neutrals-3 p--2">8 basisdelen</span><br><br><span class="bg--neutrals-5 p--2">4 complementaire delen</span></li><br>
+                    <li>Online en offline sessies van 3 uur per deel</li><br>
+                </ol><br><br>
+                <h2>Leeftijdscategorie</h2><br>
+                <p>Van 18 tot 88 jaar</p><br><br>
+                <div class="project__content__image" data-aos="fade-left">
+                    <a href="./build/images/coaching.jpg" data-lightbox="fpb-projects"><img src="./build/images/coaching.jpg" alt="MEESTERSCHAP OVER JE BREIN program images"></a>
+                </div>
+                <div class="project__content__details">
+                    <h2 class="fs--size-6">Hoe ziet dit er exact uit?</h2><br>
+                    <div class="project__content__details__base">
+                        <h3 class="fs--size-3 bg--neutrals-3 p--2">DEEL 1 & 2</h3><br>
+                        <p>Je reptielgebied : “Je holbewoner slaat bij bedreigingen met zijn knots in je ziel.”</p><br>
+                        <i class="fas fa-angle-double-down"></i><br><br>
+                        <h3 class="fs--size-3 bg--neutrals-3 p--2">DEEL 3 & 4</h3><br>
+                        <p>Je groepspositie : “Mensen zijn kuddedieren en één van onze grootste angsten is uit de groep vallen.”</p><br>
+                        <i class="fas fa-angle-double-down"></i><br><br>
+                        <h3 class="fs--size-3 bg--neutrals-3 p--2">DEEL 5 & 6</h3><br>
+                        <p>Je emotionele hersengebied : “Wij hebben een black box waar we alle data opslaan.”</p><br>
+                        <i class="fas fa-angle-double-down"></i><br><br>
+                        <h3 class="fs--size-3 bg--neutrals-3 p--2">DEEL 7 & 8</h3><br>
+                        <p>Je prefrontale hersengebied : “het neemt ⅕ van je hersenmassa in beslag, ontstond zo’n 100.000 jaar geleden en is het toppunt van onze intelligentie. De adaptieve intelligentie die ons Future Proof maakt.”</p><br>
+                        <i class="fas fa-angle-double-down"></i><br><br>
+                    </div>
+                    <div class="project__content__details__complementairy">
+                        <h3 class="fs--size-4 bg--neutrals-5 p--2">DEEL 9 & 10</h3><br>
+                        <p>Synthese van de voorgaande en doorgetrokken naar specifieke doelen als communicatie, persoonlijk stressmanagement, relationeel stressmanagement, probleemoplossend denken</p><br>
+                        <i class="fas fa-angle-double-down"></i><br><br>
+                        <h3 class="fs--size-4 bg--neutrals-5 p--2">DEEL 11 & 12</h3><br>
+                        <p>Persoonlijke presentatie van eindwerken en POP</p><br>
+                        <i class="fas fa-angle-double-down"></i><br><br>
+                        <h3 class="fs--size-4 bg--neutrals-5 p--2">WE RADEN OOK HET VOLGENDE AAN</h3><br>
+                        <p>Vip2Apro  (persoonlijkheidsanalyse vanuit de NGM)</p>
+                    </div>
+                </div>
+                <h2 class="fs--size-4 mt--20 ta--center">Enkele lovende woorden die we hebben ontvangen</h2><br>
+                @include('includes.quotes')<br>
             </div><br>
         </section>
     </div>

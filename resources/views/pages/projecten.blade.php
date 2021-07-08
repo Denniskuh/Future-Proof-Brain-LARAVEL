@@ -112,8 +112,8 @@
 
         <section class="project bg--neutrals-3 fc--neutrals-0 py--20" id="future-proof-kids">
             <div class="project__content bg--neutrals-4 p--10 ff--normal" data-aos="zoom-in">
-                <h1 class="project__content__title fs--size-4">INDIVIDUELE PROGRAMMA'S</h1>
-                <p>We bieden een breed gamma aan individuele coaching programma's. Ontdek ze hieronder!</p><br>
+                <h1 class="project__content__title fs--size-4">FUTURE PROOF KIDS</h1>
+                <p>Elke kind dat bij ons mee in coaching komt geeft aan de ouders een gratis voucher voor het volgen van ons online programma BRAINS. Dit is de visie die wij doortrekken in de begeleiding van onze kinderen en jongeren.</p><br>
                 <a href="/contact" class="o-content-container-box-cta bg--neutrals-1 p--2 my--10 fc--neutrals-0 fw--bold"><strong>Contacteer ons </strong></a><br><br><br>
                 <h2>Wat bieden we exact aan?</h2><br>
                 <ol>   

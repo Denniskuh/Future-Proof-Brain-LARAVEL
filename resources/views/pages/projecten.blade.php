@@ -85,5 +85,53 @@
                 @include('includes.quotes')<br>
             </div><br>
         </section>
+
+        <section class="project bg--neutrals-3 fc--neutrals-0 py--20" id="individueel-programma">
+            <div class="project__content bg--neutrals-4 p--10 ff--normal" data-aos="zoom-in">
+                <h1 class="project__content__title fs--size-4">INDIVIDUELE PROGRAMMA'S</h1>
+                <p>We bieden een breed gamma aan individuele coaching programma's. Ontdek ze hieronder!</p><br>
+                <a href="/contact" class="o-content-container-box-cta bg--neutrals-1 p--2 my--10 fc--neutrals-0 fw--bold"><strong>Contacteer ons </strong></a><br><br><br>
+                <h2>Wat bieden we exact aan?</h2><br>
+                <ol>                            
+                    <li>BRAINS coaching</li><br>
+                    <li>Loopbaancoaching</li><br>
+                    <li>Hartcoherentie training</li><br>
+                    <li>M-braining</li><br>
+                    <li>Cogmed/geheugentraining</li><br>
+                    <li>ACT</li><br>
+                    <li>Stressmanagement</li><br>
+                    <li>Executieve coaching/businesscoaching</li>
+                </ol><br><br>
+                <h2>Leeftijdscategorie</h2><br>
+                <p>Van 8 tot 88 jaar</p><br>
+                <div class="project__content__image" data-aos="fade-left">
+                    <a href="./build/images/team.jpg" data-lightbox="fpb-projects"><img src="./build/images/team.jpg" alt="BRAINS program images"></a>
+                </div>
+            </div><br>
+        </section>
+
+        <section class="project bg--neutrals-3 fc--neutrals-0 py--20" id="future-proof-kids">
+            <div class="project__content bg--neutrals-4 p--10 ff--normal" data-aos="zoom-in">
+                <h1 class="project__content__title fs--size-4">INDIVIDUELE PROGRAMMA'S</h1>
+                <p>We bieden een breed gamma aan individuele coaching programma's. Ontdek ze hieronder!</p><br>
+                <a href="/contact" class="o-content-container-box-cta bg--neutrals-1 p--2 my--10 fc--neutrals-0 fw--bold"><strong>Contacteer ons </strong></a><br><br><br>
+                <h2>Wat bieden we exact aan?</h2><br>
+                <ol>   
+                    <h3 class="fs--size-4 bg--neutrals-5 p--2">Vroegbegeleiding</h3><br>                         
+                    <li>Als jouw baby een extra duwtje nodig heeft (0-2 jaar)</li><br>
+                    <h3 class="fs--size-4 bg--neutrals-5 p--2">Peuter-kleuter begeleiding</h3><br> 
+                    <li>Als je vragen hebt over de ontwikkeling en opvoeding van jouw kind.(2-5 jaar)</li><br>
+                    <h3 class="fs--size-4 bg--neutrals-5 p--2">Jongeren begeleiding</h3><br> 
+                    <li>Als de pre- puberteit en puberteit  moeilijke uitdagingen geeft. Stressmanagement, communicatie en zelfbeeld (6 tot 16 jaar). Studiebegeleiding.</li><br>
+                    <h3 class="fs--size-4 bg--neutrals-5 p--2">Jong adolescenten begeleiding</h3><br> 
+                    <li>Als puberteit  moeilijke uitdagingen geeft. Stressmanagement, communicatie en zelfbeeld (6 tot 16 jaar). Studiebegeleiding.</li><br>
+                </ol><br><br>
+                <h2>Leeftijdscategorie</h2><br>
+                <p>Van 0 tot 16 jaar</p><br>
+                <div class="project__content__image" data-aos="fade-left">
+                    <a href="./build/images/kind-vliegt-op-koffer.png" data-lightbox="fpb-projects"><img src="./build/images/kind-vliegt-op-koffer.png" alt="BRAINS program images"></a>
+                </div>
+            </div><br>
+        </section>
     </div>
 @endsection

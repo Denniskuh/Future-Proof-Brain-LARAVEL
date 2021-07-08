@@ -1,6 +1,6 @@
 //DESKTOP
 @media (min-width: 1024px){
-    .project:nth-child(2), .project:nth-child(3){
+    .project:nth-child(2), .project:nth-child(3), .project:nth-child(4), .project:nth-child(5){
         .project__content{
             max-width: 80vw;
             &__title{
@@ -30,7 +30,7 @@
     }
 }
 @media (min-width: 1200px){
-    .project:nth-child(2){
+    .project:nth-child(2), .project:nth-child(4), .project:nth-child(5){
         .project__content{
             &__image{
                 display: inherit;
@@ -65,18 +65,9 @@
     }
 }
 @media (min-width: 1440px){    
-    .project:nth-child(2){
+    .project:nth-child(2), .project:nth-child(4){
         .project__content{
             max-width: 65vw;
-            &__image{
-                top: 15%;
-                right: -150px;
-                height: 450px;
-                width: 650px;
-                img{
-                    height: 50vh;                    
-                }
-            }
             ol{
                 width: 45%;
             }
@@ -87,11 +78,28 @@
             max-width: 65vw;
         }
     }
+    .project:nth-child(5){
+        .project__content{
+            max-width: 65vw;
+            ol{
+                width: 45%;
+            }
+        }
+    }
 }
 @media (min-width: 1600px){    
     .project:nth-child(2), .project:nth-child(3){
         .project__content{
             max-width: 60vw;
+            &__image{
+                top: 15%;
+                right: -150px;
+                height: 450px;
+                width: 650px;
+                img{
+                    height: 50vh;                    
+                }
+            }
             ol{
                 width: 48%;
             }
@@ -111,6 +119,40 @@
             }
             &__details{
                 margin-top: 100px;
+            }
+        }
+    }
+    .project:nth-child(4), .project:nth-child(5){
+        .project__content{
+            max-width: 60vw;
+            &__image{
+                top: 25%;
+                right: -150px;
+                height: 450px;
+                width: 650px;
+                img{
+                    height: 50vh;                    
+                }
+            }
+            ol{
+                width: 48%;
+            }
+        }
+    }
+    .project:nth-child(5){
+        .project__content{
+            max-width: 60vw;
+            &__image{
+                top: 25%;
+                right: -150px;
+                height: 450px;
+                width: 650px;
+                img{
+                    height: 50vh;                    
+                }
+            }
+            ol{
+                width: 45%;
             }
         }
     }

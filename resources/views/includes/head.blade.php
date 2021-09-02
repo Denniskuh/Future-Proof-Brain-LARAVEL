@@ -9,8 +9,8 @@
         <meta property="og:title" content="Future Proof Brain - Samen werken we aan een FUTURE PROOF BRAIN" />
         <meta property="og:type" content="Website" />
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <meta property="og:url" content="https://fpb.dennis.ego.nxtmediatech.eu/" />
-        <meta property="og:image" content="https://fpb.dennis.ego.nxtmediatech.eu/build/images/luchtballon-full.jpg" />
+        <meta property="og:url" content="https://futureproofbrain.com/" />
+        <meta property="og:image" content="https://futureproofbrain.com/build/images/luchtballon-full.jpg" />
 
         <link rel="preload" href="./build/styling/styling.css" as="style">
         <link rel="stylesheet" href="./build/styling/styling.css" >

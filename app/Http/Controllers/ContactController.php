@@ -30,7 +30,7 @@ class ContactController extends Controller
             'user_query' => $request->get('message'),
         ), function($message) use ($request){
             $message->from($request->email);
-            $message->to('dennis.ego@hotmail.be', 'Dennis Ego')
+            $message->to('ann-caroline.roymans@acr-solutions.com', 'Ann-Caroline Roymans')
             ->subject('FUTURE PROOF BRAIN - Message from website')
             ->getSwiftMessage()
             ->getHeaders()

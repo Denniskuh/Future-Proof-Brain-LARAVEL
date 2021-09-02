@@ -1,34 +1,37 @@
-.project:nth-child(2), .project:nth-child(3), .project:nth-child(4), .project:nth-child(5){
+.project:nth-child(2),
+.project:nth-child(3),
+.project:nth-child(4),
+.project:nth-child(5) {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-    text-align: left;   
+    text-align: left;
     overflow-x: hidden;
-    .project__content{
+    .project__content {
         height: 100%;
         width: 90vw;
         margin: 0px;
         border-radius: 5px;
-        h1{
+        h1 {
             overflow-wrap: break-word;
             word-wrap: break-word;
             -webkit-hyphens: auto;
             -ms-hyphens: auto;
-            hyphens: auto; 
+            hyphens: auto;
         }
-        ol{
+        ol {
             width: 100%;
-            li{
+            li {
                 list-style: none;
             }
-        }     
+        }
     }
 }
 
-.project:nth-child(3){
-    .project__content{
-        &__details{
+.project:nth-child(3) {
+    .project__content {
+        &__details {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -37,4 +40,8 @@
             margin-top: 50px;
         }
     }
+}
+
+.project__landing__background {
+    width: 100%;
 }

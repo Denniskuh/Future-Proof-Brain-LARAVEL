@@ -91,7 +91,7 @@
                                     <div class="o-content-container-box ta--left bg--neutrals-5 p--7">
                                         <img src="./build/images/cogmed-training.jpg" alt="future proof brain BRAINS">
                                         <h1 class="fs--size-2">BRAINS</h1><br>
-                                        <p>De juiste brein zorg, "vinger aan je brein".</p><br>
+                                        <p>De juiste breinzorg, "vinger aan je brein".</p><br>
                                         <h2 class="fs--size-1">van 8 tot 88 jaar</h2><br><br>
                                         <a href="/projecten/#brains" class="o-content-container-box-cta bg--neutrals-1 p--2 fc--neutrals-0 fw--bold">Ontdek meer</a>
                                     </div>
@@ -100,7 +100,7 @@
                                     <div class="o-content-container-box ta--left bg--error-0 p--7">
                                         <img src="./build/images/coaching.jpg" alt="future proof brain coaching">
                                         <h1 class="fs--size-2">Meesterschap over je brein</h1><br>
-                                        <p>Gebaseerd op het boek: "Beslissen in een VUCA Wereld", Lannoo Campus.</p><br>
+                                        <p>Gebaseerd op het boek: "Beslissen in een VUCA-Wereld", Lannoo Campus.</p><br>
                                         <h2 class="fs--size-1">Ken je brein. Ontmoet 4 hoofpersonages in je brein.</h2><br><br>
                                         <a href="/projecten/#meesterschap-over-je-brein" class="o-content-container-box-cta bg--neutrals-1 p--2 fc--neutrals-0 fw--bold">Ontdek meer</a>
                                     </div>
@@ -109,7 +109,7 @@
                                     <div class="o-content-container-box ta--left bg--neutrals-2 p--7">
                                         <img src="./build/images/team.jpg" alt="future proof brain training">
                                         <h1 class="fs--size-2">INDIVIDUELE PROGRAMMA'S</h1><br>
-                                        <p>We bieden een breed gamma aan individuele coaching programma's. Ontdek ze hieronder!</p><br><br>
+                                        <p>We bieden een breed gamma aan individuele coachingprogramma's aan. Ontdek ze hieronder!</p><br><br>
                                         <a href="/projecten/#individueel-programma" class="o-content-container-box-cta bg--neutrals-1 p--2 fc--neutrals-0 fw--bold">Ontdek meer</a>
                                     </div>
                                 </li>
@@ -117,8 +117,7 @@
                                     <div class="o-content-container-box ta--left bg--neutrals-4 p--7">
                                         <img src="./build/images/kind-vliegt-op-koffer.png" alt="future proof brain training">
                                         <h1 class="fs--size-2">FUTURE PROOF KIDS</h1><br>
-                                        <p>Elke kind dat bij ons mee in coaching komt geeft aan de ouders een gratis voucher voor het volgen van ons online programma BRAINS.</p><br>
-                                        <h2 class="fs--size-1">Dit is de visie die wij doortrekken in de begeleiding van onze kinderen en jongeren.</h2><br><br>
+                                        <p>Elk kind dat start met een coachingstraject, krijgt voor de ouders een gratis voucher voor ons online programma BRAINS. Zo trekken wij deze visie door bij de begeleiding van onze kinderen en jongeren.</p><br>
                                         <a href="/projecten/#future-proof-kids" class="o-content-container-box-cta bg--neutrals-1 p--2 fc--neutrals-0 fw--bold">Ontdek meer</a>
                                     </div>
                                 </li>

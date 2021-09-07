@@ -16,7 +16,7 @@
             <div class="f-content-box-contact">
                 <p><strong>Contact</strong></p>
                 <a href="mailto: ann-caroline.roymans@acr-solutions.com" class="fc--neutrals-0">ann-caroline.roymans@acr-solutions.com</a>
-                <a href="tel:+32474977683" class="fc--neutrals-0 fw--bold fs--size-1"><p>+32474977683</p></a>
+                <a href="tel:+32474977683" class="fc--neutrals-0 fw--bold fs--size-1"><p>+32 474 97 76 83</p></a>
             </div>
             <br><br> 
         </div>  
